@@ -81,6 +81,7 @@ h3 {
 
 .header ul li {
   margin-left: 20px;
+  font-size: larger;
 }
 
 .header ul li a {
@@ -211,6 +212,19 @@ h3 {
   border-color: #000 transparent #555 transparent;
   border-radius: 50%;
   animation: spin 1.2s linear infinite;
+}
+
+#tagline {
+  color: rgba(194, 240, 242, 0.9); 
+  font-size: 0.85rem
+}
+
+.logo {
+  text-align: left;
+}
+
+#logo {
+  font-size: x-large;
 }
 
 @keyframes spin {
