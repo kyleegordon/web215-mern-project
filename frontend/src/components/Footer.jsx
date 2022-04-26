@@ -18,7 +18,7 @@ function Footer() {
         <a href="https://github.com/kyleegordon/web215">
           GitHub WEB215
         </a>
-        &#9653; <a href="https://kyleegordon.github.io/">GitHub IO</a> &#9653;
+        &#9653; <a href="https://kyleegordon.github.io/web215/">GitHub IO</a> &#9653;
         <a href="https://www.freecodecamp.org/kyleegordon">FreeCodeCamp</a>
         &#9653;
         <a href="https://www.codecademy.com/profiles/kyleegordon">Codecademy</a>
