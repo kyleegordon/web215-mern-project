@@ -58,7 +58,6 @@ function Login() {
     <>
      <section className='heading'>
          <h1>
-            <FaSignInAlt />Login
             <p>Login to plan a project</p>
          </h1>
      </section>   
