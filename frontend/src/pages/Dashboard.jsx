@@ -38,7 +38,7 @@ const dispatch = useDispatch()
     <>
       <section className='heading'>
         <h1>Welcome {user && user.name}</h1>
-        <p>Goals Dashboard</p>
+        <p>Project Dashboard</p>
       </section>
       <GoalForm />
 
@@ -49,7 +49,7 @@ const dispatch = useDispatch()
               <GoalItem key='goal._id' goal={goal} />
             ))}
           </div>
-        ) : (<h3>You have not set any goals</h3>)}
+        ) : (<h3>You have not created any projects</h3>)}
       </section>
     </>
   )

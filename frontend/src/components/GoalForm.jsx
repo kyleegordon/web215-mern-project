@@ -17,11 +17,11 @@ function GoalForm() {
     <section className='form'>
         <form onSubmit={onSubmit}>
             <div className='form-group'>
-                <label htmlFor='text'>Goal</label>
+                <label htmlFor='text'>Project Name</label>
                 <input type='text' name='text' id='text' value={text} onChange={(e) => setText(e.target.value)} />
             </div>
             <div className='form-group'>
-                <button className='btn btn-block' type='submit'>Add Goal</button>
+                <button className='btn btn-block' type='submit'>Add Project</button>
             </div>
         </form>
     </section>
