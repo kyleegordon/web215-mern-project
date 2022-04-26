@@ -11,9 +11,29 @@ body {
   height: 100vh;
 }
 
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: -1;
+}
+
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
 a {
   text-decoration: none;
-  color: #000;
+  color: #c70d57;
 }
 
 p {
@@ -37,9 +57,7 @@ h3 {
 
 .container {
   width: 100%;
-  max-width: 960px;
   margin: 0 auto;
-  padding: 0 20px;
   text-align: center;
 }
 
@@ -47,9 +65,12 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px;
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 60px;
+  font-variant: small-caps;
+  color: #c70d57;
+  background-color: rgba(6, 6, 8, 1);
 }
 
 .header ul {
@@ -65,10 +86,11 @@ h3 {
 .header ul li a {
   display: flex;
   align-items: center;
+  color: #c70d57;
 }
 
 .header ul li a:hover {
-  color: #777;
+  color: #66FCF1;
 }
 
 .header ul li a svg {
@@ -83,7 +105,7 @@ h3 {
 }
 
 .heading p {
-  color: #828282;
+  color: #45A29E;
 }
 
 .goals {
